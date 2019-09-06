@@ -1,0 +1,25 @@
+{
+  "name": "PWA Testing",
+  "short_name": "PT",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "Just testing PWA features",
+  "icons": [
+    {
+      "src": "images/touch/Icon-152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "images/touch/Icon-180.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "images/touch/Icon-167.png",
+      "sizes": "167x167",
+      "type": "image/png"
+    }
+  ]
+}
