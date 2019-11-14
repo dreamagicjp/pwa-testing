@@ -16,16 +16,26 @@
     body {
       position: fixed;
     }
+
+    body>.mainwrapper {
+      width: 100vw;
+      height: 100vh;
+      overflow-y: scroll;
+      -webkit-overflow-scrolling: touch;
+      /* enables “momentum” (smooth) scrolling */
+    }
   </style>
 </head>
 
 <body>
-  <ul>
-    <li><a href="./ja/index.html">ja</a></li>
-    <li><a href="./en/index.html">en</a></li>
-  </ul>
-  <video controls="controls" width="800" height="600" name="Video Name" src="videos/sample.mp4" playsinline muted
-    autoplay></video>
+  <div class="mainwrapper">
+    <ul>
+      <li><a href="./ja/index.html">ja</a></li>
+      <li><a href="./en/index.html">en</a></li>
+    </ul>
+    <video controls="controls" width="800" height="600" name="Video Name" src="videos/sample.mp4" playsinline muted
+      autoplay></video>
+  </div>
 </body>
 
 </html>
